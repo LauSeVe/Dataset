@@ -1,0 +1,6 @@
+[submodule "TrexMininetComplex"]
+	path = TrexMininetComplex
+	url = https://github.com/LauSeVe/TRex
+[submodule "Trex"]
+	path = Trex
+	url = https://github.com/LauSeVe/TRex
