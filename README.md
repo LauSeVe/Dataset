@@ -103,9 +103,12 @@ Los resultados se pueden utilizar para variables aplicaciones, para ello es impo
 
 I. Sharafaldin et al. en 2017 (https://www.researchgate.net/publication/318286637_Towards_a_Reliable_Intrusion_Detection_Benchmark_Dataset) comenta que tras hacer un analisis de el tráfico recolectado en su centro de investigación de la Universidad de Twente durante 1 mes los resultados han sido: 10% de tráfico http, 74% de https, 2% de ssh, 6% de ftp, 1% de email y 7% de otro tipo de tráfico.  
 
+
 ### Creación
 
 - **Data**
 
-Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en la carpeta llamada [Complex](TRex/TRexMininet/Complex). 
+Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en la carpeta llamada [Complex](Trex/TRexMininet/Complex). 
+
+
 
