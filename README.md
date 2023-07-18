@@ -108,7 +108,7 @@ I. Sharafaldin et al. en 2017 (https://www.researchgate.net/publication/31828663
 
 - **Data**
 
-Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en la carpeta llamada [Complex](Trex/TRexMininet/Complex). 
+Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en la carpeta llamada [Complex](Trex @ 8228f76/TRexMininet/Complex). 
 
 
 
