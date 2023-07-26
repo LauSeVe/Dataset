@@ -77,7 +77,7 @@ El propio generador de tráfico Trex proporciona un dataset llamdo EMIX compuest
 ## Dataset propio
 
 Al no encontrar ninguno dataset que provea de información relativa al controlador de una red SDN, se ha decidido crear uno.
-Para esto si ha requerido el generador de tráfico TRex de CISCO. 
+Para esto si ha requerido el generador de tráfico TRex de CISCO y algunos de los datasets anteriores. En especial se va a emplear el de **TRex CISCO** de EMIX y el tráfico benigno del lunes de **CIC-IDS2017**.
 
 ### Metodología
 A continuación se puede ver la metodología empleada para generar el dataset
@@ -108,7 +108,9 @@ I. Sharafaldin et al. en 2017 (https://www.researchgate.net/publication/31828663
 
 - **Data**
 
-Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en la carpeta llamada [Complex](8228f76e28d385f17b8e3bd79ed1b6855d0000e7/TRexMininet/Complex). 
+Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en el escenario llamado "Complex" del repositorio vinculado llamado [Trex](https://github.com/LauSeVe/TRex/tree/main/TRexMininet/Complex). Por comodidad se ha reproducido el mismo escenario en la carpeta llamada "Topology". En esta carpeta se explica como se emplea este escenario para este caso de uso, más información generica se encuentra en el repositorio comentado anteriormente. 
+
+
 
 
 
