@@ -56,5 +56,5 @@ Para lanzar el tráfico CIC-IDS2017 que es un tráfico más completo
 La topología mininet se puede eliminar escribiendo "exit" dentro de su terminal.
 Para eliminar los contenedores:
 ~~~
-docker rm -f onos trexcomplex 
+docker rm -f onos trex
 ~~~

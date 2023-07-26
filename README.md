@@ -92,8 +92,3 @@ I. Sharafaldin et al. en 2017 (https://www.researchgate.net/publication/31828663
 - **Data**
 
 Para generar los datos se va a utilizar el generador de tráfico TRex de CISCO. Para ello se va a emplear la topología creada en el escenario llamado "Complex" del repositorio vinculado llamado [Trex](https://github.com/LauSeVe/TRex/tree/main/TRexMininet/Complex). Por comodidad se ha reproducido el mismo escenario en la carpeta llamada "Topology". En esta carpeta se explica como se emplea este escenario para este caso de uso, más información generica se encuentra en el repositorio comentado anteriormente. 
-
-
-
-
-
