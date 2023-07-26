@@ -10,7 +10,10 @@ El tráfico HTTPS ahora mismo puede suponer más de un 70% del trafico de la red
 Es un centro de investigación que se dedica al estudio y análisis de datos relacionados con Internet. 
 
 4 areas de estudio:
-CAIDA investigates practical and theoretical aspects of the Internet in order to: (1) provide macroscopic insights into Internet infrastructure, behavior, usage, and evolution, (2) foster a collaborative environment in which data can be acquired, analyzed, and (as appropriate) shared, (3) improve the integrity of the field of Internet science, (4) inform science, technology, and communications public policies.
+- Proporcionar una visión macroscópica de la infraestructura, el comportamiento, el uso y la evolución de Internet.
+- Fomentar un entorno de colaboración en el que los datos puedan adquirirse, analizarse y (en su caso) compartirse.
+- Mejorar la integridad del campo de la ciencia de Internet.
+- Informar las políticas públicas de ciencia, tecnología y comunicaciones.
 
 https://www.linkedin.com/company/caida/?originalSubdomain=es
 
@@ -18,19 +21,12 @@ https://www.linkedin.com/company/caida/?originalSubdomain=es
 Por ejemplo un dataset de CAIDA de 2022 sería la siguiente:
 https://catalog.caida.org/dataset/annotated_anonymized_telescope_packets_sampler
 
-- **MOME**:
-
-
 - **Waikato Internet Traffic Storage Project**:
 
 Es una iniciativa desarrollada por el Departamento de Ciencias de la Computación de la Universidad de Waikato en Nueva Zelanda. El objetivo principal del proyecto es capturar, almacenar y analizar datos de tráfico de Internet en tiempo real.
 
-- **RIPE**
-
 - **TOTEM project**
 https://totem.info.ucl.ac.be/dataset.html
-
-- **MAWI**
 
 - **Internet Traffic Archive**
 https://ita.ee.lbl.gov/
@@ -38,32 +34,18 @@ https://ita.ee.lbl.gov/
 - **UMass Trace repository**
 https://traces.cs.umass.edu/
 
-- **CRAWDAD**
 
 - **SimpleWeb** 
 https://www.simpleweb.org/wiki/index.php/Traces
 
+- **NSL-KDD**
+Standard Latent Space Dimension For Network Intrusion Detection Systems Datasets
 
 - **Twente** 
-
 Como se ha mencionado antes, I. Sharafaldin et al. investigador de Twente recolecta información de su centro de investigación para poder generar un dataset. Otro dataset generado en el seno de esta Universidad es la encontrada en Anna Sperotto et al. (https://www.researchgate.net/publication/221262139_A_Labeled_Data_Set_for_Flow-Based_Intrusion_Detection/citations) la cual está etiquetada y es bastante realista para el año 2009. 
 
-- **CDX**
-
-- **Kyoto**
-
-- **CIC-IDS2017**
+En la Universidad de Twente desarollaron el dataset **CIC-IDS2017**, basado en el B-Profile. 
 https://www.unb.ca/cic/datasets/ids-2017.html
-
-- **UNSW-NB15**
-
-- **NF-UNSW-NB15-v2**
-
-- **CSE-CIC-IDS2018**
-
-- **NSL-KDD**
-
-Standard Latent Space Dimension For Network Intrusion Detection Systems Datasets
 
 - **TRex CISCO**
 El propio generador de tráfico Trex proporciona un dataset llamdo EMIX compuesto por:
@@ -73,11 +55,12 @@ El propio generador de tráfico Trex proporciona un dataset llamdo EMIX compuest
 
 (https://trex-tgn.cisco.com/trex/doc/trex_manual.html)
 
-
+Se pueden encontrar más datasets como por ejemplo los ofrecidos por **MOME**, **CRAWDAD**, **RIPE**, **Kyoto** y **CDX**.
 ## Dataset propio
 
-Al no encontrar ninguno dataset que provea de información relativa al controlador de una red SDN, se ha decidido crear uno.
+Al no encontrar ninguno dataset que provea de información relativa al controlador de una red SDN, se ha decidido crear uno utilizando como base unos de los mencionados anteriormente.
 Para esto si ha requerido el generador de tráfico TRex de CISCO y algunos de los datasets anteriores. En especial se va a emplear el de **TRex CISCO** de EMIX y el tráfico benigno del lunes de **CIC-IDS2017**.
+Se han elegido estos dos ya que estan muy bien documentados y son de facil acceso. 
 
 ### Metodología
 A continuación se puede ver la metodología empleada para generar el dataset

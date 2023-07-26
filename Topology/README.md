@@ -2,7 +2,7 @@
 Este escenario está compuesta por una topología mininet de 4 switches y un contenedor con el generador de tráfico TRex de CISCO. Este contenedor tiene doce interfaces los cuales están conectados 2 a 2 a los switches de la topología Mininet.
 El escenario es el siguiente.
 <p align="center">
-  <img src="../../img/TREX-MininetComplex.png">
+  <img src="../img/TREX-MininetComplex.png">
 </p>
 
 ## Desplegar ONOS y Mininet
@@ -45,6 +45,10 @@ tshark -r test.pcap -Y "icmp.type==8 and openflow_v4.type==10"
 Para lanzar el tráfico EMIX
 ~~~
 sudo ./t-rex-64 -f avl/sfr_delay_10_1g.yaml
+~~~
+Para lanzar el tráfico CIC-IDS2017 que es un tráfico más completo
+~~~
+
 ~~~
 
 
