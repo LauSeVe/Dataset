@@ -46,10 +46,6 @@ Para lanzar el tráfico EMIX
 ~~~
 sudo ./t-rex-64 -f avl/sfr_delay_10_1g.yaml
 ~~~
-Para lanzar el tráfico CIC-IDS2017 que es un tráfico más completo
-~~~
-
-~~~
 
 
 ## Desconfiguración del escenario 
